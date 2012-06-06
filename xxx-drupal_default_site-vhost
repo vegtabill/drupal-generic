@@ -1,0 +1,14 @@
+# A generic file for setting up a vhost for a Drupal site on sites/default
+<VirtualHost *:80>
+	# DocumentRoot <path to Drupal installation directory>
+	# DocumentRoot /var/www/drupal
+	# ServerName <name given for the local server>
+	# ServerName aquatic.localhost
+
+	# Logging
+	# ErrorLog <path to "error.log">
+	# ErrorLog /tmp/log/drupal/error.log
+	# CustomLog <path to "access.log combined">
+	# CustomLog /tmp/log/drupal/access.log combined
+</VirtualHost>
+
